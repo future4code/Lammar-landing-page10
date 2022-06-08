@@ -1,0 +1,150 @@
+body{
+    background: rgba(255, 145, 77, 1);
+}
+
+.content1 {
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;
+}
+.content2 {
+    width: 400px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;
+}
+h1{
+    font-size: 48px;
+    color: orange;
+    padding: 2px 0 10px 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(255, 145, 77,0) 0%,rgba(255, 145, 77,0.8) 20%,rgba(255, 145, 77,1) 53%,rgba(255, 145, 77,0.8) 79%,rgba(255, 145, 77,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+p{
+    margin-bottom:15px;
+}
+   
+.content p:first-child{
+    margin: 0px;
+}
+   
+label{
+    color: #000000;
+    position: relative;
+}
+  /* placeholder */
+::-webkit-input-placeholder  {
+    color: #bebcbc; 
+    font-style: italic;
+}
+   
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+    color: #bebcbc;
+    font-style: italic;
+}
+input {
+    outline: none;
+}
+   
+  /*estilo dos input,  menos o checkbox */
+input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+#abrasuaconta {
+    position: absolute;
+    top: 0px;
+    width: 88%;   
+    padding: 18px 6% 30px 6%;
+    margin: 0 0 70px 0;
+    background: #f7f7f7;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+  /*estilo do botão submit */
+input[type="submit"]{
+    width: 100%!important;
+    cursor: pointer;  
+    background: rgb(255, 145, 77);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   
+    transition: all 0.2s linear;
+  }
+   
+  /*estilo do botão submit no hover */
+  input[type="submit"]:hover{
+    background: grey;
+  }
+
+#login{
+    position: absolute;
+    top: 0px;
+    width: 88%;   
+    padding: 18px 6% 30px 6%;
+    margin: 0 0 70px 0;
+    background: #f7f7f7;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+}
+
+  /*estilo do botão submit */
+input[type="submit"]{
+    width: 100%!important;
+    cursor: pointer;  
+    background: rgb(255, 145, 77);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   
+    transition: all 0.2s linear;
+  }
+input[name="conta"]{
+    width: 30%;
+}
+input[name="agencia"]{
+    width: 14%;
+}
+  /*estilo do botão submit no hover */
+input[type="submit"]:hover{
+    background: grey;
+}
+
+
