@@ -1,64 +1,142 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-.container {
+header {
+    width: 100%;
+    height: 90px;
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 5px 15px rgb(0, 0, 0);
+    align-items: center;
+    flex-wrap: wrap;
     background-color: #ff914d;
-    box-shadow: 0 5px 10px darkgray;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#logo-f4-bank {
-    padding-left: 30px;
-}
-
-.texto-pessoa-fisica {
+.logof {
     display: flex;
-    position: relative;
-    top: 20px;
-    height: 50px;
-    font-family: sans-serif;
+    width: 55px;
+    height: 55px;
 }
 
-#texto-p-pessoa-fisica {
-    position: relative;
-    top: 15px;
-    left: 8px;
-}
-
-.texto-pessoa-juridica {
+.icone {
+    justify-content: space-between;
     display: flex;
-    position: relative;
-    top: 20px;
-    height: 50px;
-    font-family: sans-serif;
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+    margin-top: 0px;
 }
 
-#texto-p-pessoa-juridica {
-    position: relative;
-    top: 15px;
-    left: 8px;
-}
-
-.texto-sobre-nos {
+.iconet {
+    justify-content: space-between;
     display: flex;
-    position: relative;
-    top: 20px;
-    height: 50px;
-    font-family: sans-serif;
+    width: 55px;
+    height: 55px;
+    margin-left: 40px;
+    margin-top: 25px;
 }
 
-#texto-p-sobre-nos {
-    position: relative;
-    top: 15px;
-    left: 8px;
-}
-
-picture {
-    box-shadow: 0px 5px 10px darkgrey;
+.menu {
+    list-style: none;
     display: flex;
-    width: 20px;
-    background-color: none;
+}
+
+.menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 5px 5px 5px;
+    margin-top: 35px;
+    margin-left: -10px;
+    border-radius: 100px;
+}
+
+.txt-hearder {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 5px;
+}
+
+.acesso-header {
+    border: solid 1px white;
+    display: flex;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-top: -50px;
+    margin-left: 0px;
+}
+
+.acesso-header2 {
+    border: solid 1px white;
+    display: flex;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-top: -50px;
+    margin-left: 500px;
+}
+
+.firstbg {
+    height: 1000px;
+    display: flex;
+    background-image: url(/img/mulher.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.txtmain {
+    display: flex;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 70px;
+    margin-left: 80px;
+}
+
+.firstbg2 {
+    height: 1000px;
+    display: flex;
+    background-image: url(/img/med_cart.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 0px;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.txtmain2 {
+    display: flex;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 120px;
+    margin-left: 80px;
+    margin-top: -820px;
+}
+
+.txtmain3 {
+    display: flex;
+    text-align: justify;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 120px;
+    margin-left: -260px;
+    margin-top: -300px;
+}
+
+.arrows {
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 5px;
+    margin-top: 35px;
+    margin-left: -700px;
+    margin-top: 250px;
+    font-size: 45px;
 }
