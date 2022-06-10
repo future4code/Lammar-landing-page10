@@ -55,9 +55,3 @@
     top: 15px;
     left: 8px;
 }
-
-picture {
-    box-shadow: 0px 5px 10px darkgrey;
-    display: flex;
-    width: 20px;
-}
