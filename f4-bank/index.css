@@ -18,6 +18,18 @@ header {
     flex-wrap: wrap;
 }
 
+footer {
+    background-color: #ff914d;
+    height: 250px;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
 .logof {
     display: flex;
     width: 55px;
@@ -95,7 +107,6 @@ header {
     display: flex;
     text-align: justify;
     color: white;
-    text-shadow: 1px 1px 2px black;
     font-size: 70px;
     margin-left: 80px;
 }
@@ -108,7 +119,6 @@ header {
     background-size: auto;
     margin-top: 0px;
     align-items: center;
-    box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 .txtmain2 {
@@ -139,4 +149,20 @@ header {
     margin-left: -700px;
     margin-top: 250px;
     font-size: 45px;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 32px;
+}
+
+
+.imagens-logos {
+    display: grid;
+    gap: 3px;
+}
+
+.texto-copyright {
+    color: white;
+    font-size: 12px;
 }
