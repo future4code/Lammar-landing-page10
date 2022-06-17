@@ -91,6 +91,25 @@ header {
     align-items: center;
 }
 
+.servico {
+    display: flex;
+    background-color: white;
+    height: 200px;
+    border: 5px solid #ff914d;
+    width: 200px;
+    align-items: center;
+    margin-left: 30px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.boxservice {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
 .txtmain {
     display: flex;
     text-align: justify;
@@ -106,7 +125,7 @@ header {
     background-image: url(/img/med_cart.png);
     background-repeat: no-repeat;
     background-size: auto;
-    margin-top: 0px;
+    margin-top: -50px;
     align-items: center;
     box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
