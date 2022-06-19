@@ -204,40 +204,6 @@ a {
     font-size: 12px;
 }
 
-
-.container-produtos {
-    width: 100%;
-    position: relative;
-    bottom: 95px;
-}
-
-.cards-produtos {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.card-box-produtos {
-    padding: 1rem;
-    min-height: 8rem;
-}
-
-.card-produto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    -webkit-box-shadow: 0 2px 8px -2px rgb(34 34 34 / 40%);
-    -moz-box-shadow: 0 2px 8px -2px rgba(34, 34, 34, .4);
-    box-shadow: 0 2px 8px -2px rgb(34 34 34 / 40%);
-    border: 1px solid #767676;
-    padding: 0.7rem 0.9rem;
-    min-height: 7rem;
-    min-width: 8rem;
-    border-radius: 4px;
-    background-color: white;
-    color: #ff914d;
-  
 #acessarconta1 {
     position: relative;
     border: 1px solid #ffffff;
@@ -288,5 +254,4 @@ a {
     font-size: 50px;
     color: #ff914d;
     text-shadow: 1px 2px 3px black;
-
 }
