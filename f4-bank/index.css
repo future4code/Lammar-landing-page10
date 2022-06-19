@@ -146,7 +146,7 @@ a {
     color: white;
     text-decoration: none;
     padding: 5px 5px 5px;
-    
+
     margin-left: -700px;
     margin-top: 600px;
     font-size: 45px;
@@ -154,15 +154,15 @@ a {
 
 .container-servicos {
     width: 100%;
-    margin-right: auto ;
-    margin-left: auto ;
+    margin-right: auto;
+    margin-left: auto;
 
 }
 
 .cards-servicos {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .card-box {
@@ -208,20 +208,20 @@ a {
     margin-left: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    
-    
+
+
 }
 
 .cards-produtos {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .card-box-produtos {
     padding: 1rem;
     min-height: 8rem;
-    
+
 }
 
 .card-produto {
@@ -334,7 +334,7 @@ a {
     display: flex;
     text-align: justify;
     font-size: 70px;
-    margin-top: 20px ;
+    margin-top: 20px;
     margin-left: 80px;
     text-shadow: rgba(103, 95, 95, 0.444) 0.1em 0.1em 0.1em
 }
