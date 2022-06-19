@@ -67,6 +67,7 @@ a {
     margin-top: 35px;
     margin-left: -10px;
     border-radius: 100px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .txt-hearder {
@@ -101,6 +102,7 @@ a {
     background-size: auto;
     margin-top: 10px;
     align-items: center;
+    box-shadow: 1px 1px 10px black;
 }
 
 .txtmain {
@@ -119,6 +121,7 @@ a {
     background-size: auto;
     margin-top: 0px;
     align-items: center;
+    box-shadow: 1px 2px 10px black;
 }
 
 .txtmain2 {
@@ -155,6 +158,8 @@ a {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .cards-servicos {
@@ -189,7 +194,6 @@ a {
     font-size: 32px;
 }
 
-
 .imagens-logos {
     display: grid;
     gap: 3px;
@@ -200,6 +204,7 @@ a {
     font-size: 12px;
 }
 
+<<<<<<< HEAD
 .container-produtos {
     width: 100%;
     position: relative;
@@ -232,4 +237,56 @@ a {
     border-radius: 4px;
     background-color: white;
     color: #ff914d;
+=======
+#acessarconta1 {
+    position: relative;
+    border: 1px solid #ffffff;
+    line-height: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    left: 310px;
+    top: -20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#acessarconta2 {
+    position: relative;
+    border: 1px solid #ffffff;
+    line-height: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    left: 320px;
+    top: -20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.acess {
+    color: white;
+}
+
+.servicos-txt {
+    top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #ff914d;
+    text-shadow: 1px 2px 3px black;
+>>>>>>> 9b683aad2ee087c6ae7a110b23e6c83e1ce6e8ba
 }
