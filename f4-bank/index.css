@@ -253,5 +253,43 @@ a {
     text-align: center;
     font-size: 50px;
     color: #ff914d;
-    text-shadow: 1px 2px 3px black;
+}
+
+.firstbg3 {
+    height: 1000px;
+    display: flex;
+    background-image: url(/img/certosust.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: -100px;
+    align-items: center;
+    box-shadow: 1px 2px 10px black;
+}
+
+.txtmain4 {
+    display: flex;
+    text-align: justify;
+    color: rgb(0, 132, 42);
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.arrows2 {
+    color: rgb(0, 132, 42);
+    text-decoration: none;
+    padding: 5px 5px 5px;
+    margin-top: 35px;
+    margin-left: -800px;
+    margin-top: 450px;
+    font-size: 45px;
+}
+
+.firstbg4 {
+    height: 1000px;
+    display: flex;
+    background-image: url(/img/scure.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: -100px;
+    align-items: center;
 }
