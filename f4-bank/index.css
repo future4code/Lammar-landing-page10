@@ -204,7 +204,6 @@ a {
     font-size: 12px;
 }
 
-<<<<<<< HEAD
 .container-produtos {
     width: 100%;
     position: relative;
@@ -237,7 +236,7 @@ a {
     border-radius: 4px;
     background-color: white;
     color: #ff914d;
-=======
+}
 #acessarconta1 {
     position: relative;
     border: 1px solid #ffffff;
@@ -288,5 +287,4 @@ a {
     font-size: 50px;
     color: #ff914d;
     text-shadow: 1px 2px 3px black;
->>>>>>> 9b683aad2ee087c6ae7a110b23e6c83e1ce6e8ba
 }
