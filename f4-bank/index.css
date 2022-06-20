@@ -10,12 +10,24 @@ header {
     height: 90px;
     display: flex;
     padding: 10px;
-    box-shadow: 0px 5px 15px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px black;
     align-items: center;
     flex-wrap: wrap;
     background-color: #ff914d;
     align-items: center;
     flex-wrap: wrap;
+}
+
+footer {
+    background-color: #ff914d;
+    height: 250px;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
 }
 
 .logof {
@@ -55,6 +67,7 @@ header {
     margin-top: 35px;
     margin-left: -10px;
     border-radius: 100px;
+    text-shadow: 1px 1px 2px black;
 }
 
 .txt-hearder {
@@ -87,8 +100,8 @@ header {
     background-image: url(/img/mulher.png);
     background-repeat: no-repeat;
     background-size: auto;
-    margin-top: 10px;
     align-items: center;
+    box-shadow: 1px 1px 10px black;
 }
 
 .servico {
@@ -114,20 +127,22 @@ header {
     display: flex;
     text-align: justify;
     color: white;
-    text-shadow: 1px 1px 2px black;
     font-size: 70px;
     margin-left: 80px;
 }
 
 .firstbg2 {
-    height: 1000px;
+    height: 900px;
     display: flex;
     background-image: url(/img/med_cart.png);
     background-repeat: no-repeat;
     background-size: auto;
+<<<<<<< HEAD
     margin-top: -50px;
+=======
+>>>>>>> c0466b5c439d65ff40eafe520a60692ba54d39e8
     align-items: center;
-    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    box-shadow: 1px 2px 10px black;
 }
 
 .txtmain2 {
@@ -137,7 +152,7 @@ header {
     text-shadow: 1px 1px 2px black;
     font-size: 120px;
     margin-left: 80px;
-    margin-top: -820px;
+    margin-top: -500px;
 }
 
 .txtmain3 {
@@ -147,15 +162,211 @@ header {
     text-shadow: 1px 1px 2px black;
     font-size: 120px;
     margin-left: -260px;
-    margin-top: -300px;
+    margin-top: 0px;
 }
 
 .arrows {
     color: white;
     text-decoration: none;
     padding: 5px 5px 5px;
-    margin-top: 35px;
+
     margin-left: -700px;
-    margin-top: 250px;
+    margin-top: 600px;
     font-size: 45px;
+}
+
+.container-servicos {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.cards-servicos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-box {
+    padding: 1rem;
+    min-height: 8rem;
+}
+
+.card-servico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-box-shadow: 0 2px 8px -2px rgb(34 34 34 / 40%);
+    -moz-box-shadow: 0 2px 8px -2px rgba(34, 34, 34, .4);
+    box-shadow: 0 2px 8px -2px rgb(34 34 34 / 40%);
+    border: 1px solid #767676;
+    padding: 0.7rem 0.9rem;
+    min-height: 7rem;
+    min-width: 8rem;
+    border-radius: 4px;
+    background-color: white;
+    color: #ff914d;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 32px;
+}
+
+.imagens-logos {
+    display: grid;
+    gap: 3px;
+}
+
+.texto-copyright {
+    color: white;
+    font-size: 12px;
+}
+
+.container-produtos {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+}
+
+.cards-produtos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-box-produtos {
+    padding: 1rem;
+    min-height: 8rem;
+
+}
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    -webkit-box-shadow: 0 2px 8px -2px rgb(34 34 34 / 40%);
+    -moz-box-shadow: 0 2px 8px -2px rgba(34, 34, 34, .4);
+    box-shadow: 0 2px 8px -2px rgb(34 34 34 / 40%);
+    border: 1px solid #767676;
+    padding: 0.7rem 0.9rem;
+    min-height: 7rem;
+    min-width: 8rem;
+    border-radius: 4px;
+    background-color: white;
+    color: #ff914d;
+    box-shadow: 1px 1px 5px black;
+}
+
+#acessarconta1 {
+    position: relative;
+    border: 1px solid #ffffff;
+    line-height: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    left: 310px;
+    top: -20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#acessarconta2 {
+    position: relative;
+    border: 1px solid #ffffff;
+    line-height: 24px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: transparent;
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    left: 320px;
+    top: -20px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.acess {
+    color: white;
+}
+
+.servicos-txt {
+    top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #ff914d;
+}
+
+.firstbg3 {
+    height: 1000px;
+    display: flex;
+    background-image: url(/img/certosust.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: -00px;
+    align-items: center;
+}
+
+.txtmain4 {
+    display: flex;
+    text-align: justify;
+    color: rgb(0, 132, 42);
+    font-size: 60px;
+    margin-left: 700px;
+}
+
+.arrows2 {
+    color: rgb(0, 132, 42);
+    text-decoration: none;
+    padding: 5px 5px 5px;
+    margin-top: 35px;
+    margin-left: -800px;
+    margin-top: 450px;
+    font-size: 45px;
+}
+
+
+.firstbg4 {
+    height: 1000px;
+    background-image: url(/img/scure.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    align-items: center;
+}
+
+.txtmain5 {
+    display: flex;
+    text-align: justify;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-left: 80px;
+    text-shadow: rgba(103, 95, 95, 0.444) 0.1em 0.1em 0.1em
+}
+
+.txtmain6 {
+    display: flex;
+    text-align: justify;
+    font-size: 40px;
+    margin-left: 100px;
+    margin-top: 520px;
+    text-shadow: rgba(103, 95, 95, 0.444) 0.1em 0.1em 0.1em
 }
