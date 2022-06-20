@@ -4,7 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+main {
+display: grid;
+justify-content: center;
+   
+}
 header {
     width: 100%;
     height: 90px;
@@ -14,10 +18,11 @@ header {
     align-items: center;
     flex-wrap: wrap;
     background-color: #ff914d;
-    align-items: center;
-    flex-wrap: wrap;
 }
-
+.alinhamento {
+    justify-content: center;
+    
+}
 footer {
     background-color: #ff914d;
     height: 250px;
@@ -97,86 +102,64 @@ a {
 .firstbg {
     height: 1000px;
     display: flex;
-    background-image: url(/img/mulher.png);
-    background-repeat: no-repeat;
-    background-size: auto;
     align-items: center;
     box-shadow: 1px 1px 10px black;
 }
-
-.servico {
-    display: flex;
-    background-color: white;
-    height: 200px;
-    border: 5px solid #ff914d;
-    width: 200px;
+.picture {
     align-items: center;
-    margin-left: 30px;
-    box-shadow: 1px 1px 5px black;
 }
-
-.boxservice {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    margin-left: 25px;
-}
-
 .txtmain {
-    display: flex;
-    text-align: justify;
+    position: absolute;
+    display: center;
     color: white;
+    top: 500px;
     font-size: 70px;
-    margin-left: 80px;
+    margin-left: 100px;
+    text-align: start;
+    text-shadow:1px 2px 5px black;
 }
 
 .firstbg2 {
     height: 900px;
     display: flex;
-    background-image: url(/img/med_cart.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-<<<<<<< HEAD
-    margin-top: -50px;
-=======
->>>>>>> c0466b5c439d65ff40eafe520a60692ba54d39e8
     align-items: center;
     box-shadow: 1px 2px 10px black;
 }
 
 .txtmain2 {
-    display: flex;
-    text-align: justify;
+    position: absolute;
     color: white;
     text-shadow: 1px 1px 2px black;
     font-size: 120px;
-    margin-left: 80px;
-    margin-top: -500px;
+    margin-top: -800px;
+    margin-left: 100px;
+    text-align: start;
 }
 
 .txtmain3 {
-    display: flex;
-    text-align: justify;
+    position: absolute;
     color: white;
     text-shadow: 1px 1px 2px black;
     font-size: 120px;
-    margin-left: -260px;
-    margin-top: 0px;
+    margin-top: -650px;
+    margin-left: 100px;
+    text-align: start;
 }
 
 .arrows {
+    position: absolute;
     color: white;
     text-decoration: none;
     padding: 5px 5px 5px;
 
-    margin-left: -700px;
-    margin-top: 600px;
+    margin-left:500px;
+    margin-top: -200px;
     font-size: 45px;
 }
 
 .container-servicos {
-    width: 100%;
+    display: grid;
+    width:950px;
     margin-right: auto;
     margin-left: auto;
 
@@ -208,6 +191,7 @@ a {
     border-radius: 4px;
     background-color: white;
     color: #ff914d;
+    box-shadow: 1px 1px 5px black;
 }
 
 .texto-footer {
@@ -226,11 +210,10 @@ a {
 }
 
 .container-produtos {
-    width: 100%;
+    display: grid;
+    width:950px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
 
 
 }
@@ -318,55 +301,51 @@ a {
 
 .firstbg3 {
     height: 1000px;
-    display: flex;
-    background-image: url(/img/certosust.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    margin-top: -00px;
+    margin-top: 00px;
     align-items: center;
 }
 
 .txtmain4 {
-    display: flex;
-    text-align: justify;
+    position: absolute;
     color: rgb(0, 132, 42);
     font-size: 60px;
     margin-left: 700px;
+    margin-top: -600px;
 }
 
 .arrows2 {
+    position: absolute;
     color: rgb(0, 132, 42);
     text-decoration: none;
     padding: 5px 5px 5px;
-    margin-top: 35px;
-    margin-left: -800px;
-    margin-top: 450px;
+    margin-left: 700px;
+    margin-top: -360px;
     font-size: 45px;
 }
 
 
 .firstbg4 {
     height: 1000px;
-    background-image: url(/img/scure.png);
-    background-repeat: no-repeat;
-    background-size: auto;
     align-items: center;
+    display: flex;
+    box-shadow: 1px 1px 10px black;
 }
 
 .txtmain5 {
-    display: flex;
-    text-align: justify;
+    position: absolute;
     font-size: 70px;
-    margin-top: 20px;
-    margin-left: 80px;
-    text-shadow: rgba(103, 95, 95, 0.444) 0.1em 0.1em 0.1em
+    margin-top: -1040px;
+    margin-left: 100px;
+    text-shadow: rgba(103, 95, 95, 0.444) 0.1em 0.1em 0.1em;
+    text-align: start;
+
+    
 }
 
 .txtmain6 {
-    display: flex;
-    text-align: justify;
+    position:absolute;
     font-size: 40px;
     margin-left: 100px;
-    margin-top: 520px;
+    margin-top: -250px;
     text-shadow: rgba(103, 95, 95, 0.444) 0.1em 0.1em 0.1em
 }
