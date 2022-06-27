@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <div>
+    <center>
+      <a href="/index.html"> <img src="img/logof4bank2.png" alt="logo f4bank" width="200px"/></a>
+    </center>
+  </div> 
+    <div class="container" >
+       
+      <div class="content2">      
+        <!--FORMULÁRIO DE LOGIN-->
+        <div id="login">
+          <form method="post" action=""> 
+            <h1>Login</h1> 
+            <p> 
+              &ensp;<label for="agencia">Agencia</label> &ensp;
+              <label for="conta">Conta</label>
+            </p>
+
+            <p> 
+              <input name="agencia" required="required" type="text" placeholder="ex. 7777" maxlength="4"/>
+              <input name="conta" required="required" type="text" placeholder="ex. 2803199" maxlength="7"/>
+            </p>
+             
+            <p> 
+              &ensp;<label for="email_login">Senha digital da conta</label>
+              <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha,não é a mesma do cartao fisico"/> 
+            </p>
+             
+            <p> 
+              <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+              <label for="manterlogado">Manter-me logado</label>
+            </p>
+             
+            <p> 
+              <input type="submit" value="Logar" /> 
+            </p>
+             
+            <p class="link">
+              Ainda não tem conta?
+              <a href="/abrasuaconta.html">Cadastre-se</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>  
+  </body>       
